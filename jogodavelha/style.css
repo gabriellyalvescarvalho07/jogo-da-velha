@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+}
+
+.montar{
+    max-width: 100px;
+    max-height: 100px;
+    width: 100px;
+    height: 100px;
+    background: transparent;
+    margin: 10px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+}
+
+.quadrados{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+h2{
+    text-align: center;
+    color: black;
+}
+
+.CorDoX{
+    color: red;
+}
+
+.CorDoO{
+    color: blue;
+}
+.linha{
+    width: 500px;
+    height: 5px;
+    background-color: red;
+    left: 360px;
+    position: absolute;
+    top: 190px;
+}
+h1{
+    color: blue;
+    text-align: center;
+}
